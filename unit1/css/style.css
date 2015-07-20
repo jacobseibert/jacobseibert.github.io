@@ -1,0 +1,14 @@
+
+h1{
+	color: #FFFFCC;
+	background-color: #0099FF;
+	font-size: 22;
+}
+title{
+	font-style: oblique;
+
+}
+p.uppercase{
+	text-transform: uppercase;
+	font-size: 18;
+}
