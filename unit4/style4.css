@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+h1{
+		color: #FFFFFF;
+		font-size: 50px;
+		text-align: center;
+		font-style: oblique;
+		font-family: 'Kaushan Script';
+}
+
+
+body{
+	background-image:url("images/IMG_0280.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: 50% 50%;
+
+	
+}
+p{
+	padding-top: 5%;
+	font-size: 18px;
+	color: #FFE6E6;
+	font-family: 'Kaushan Script';
+
+}
+div{
+text-align: center;
+background-color:rgba(0,0,0,0.3); 
+width: 60%;
+margin: 0 auto;
+}
+
+ul{position: absolute;
+	bottom:0; 
+	right: 0;
+	color: white;
+
+
+}
