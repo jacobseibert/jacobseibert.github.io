@@ -1,0 +1,94 @@
+/*div {
+	background-image:url("images/uf1.jpg"), url("images/uf2.jpg"),
+	url("images/uf3.jpg"), url("images/uf4.jpg"), url("images/uf5.jpg"),
+	url("images/uf6.jpg"), url("images/uf7.jpg"), url("images/uf8.jpg"),
+	url("images/uf9.jpg");
+	font-size: 9pt;
+	vertical-align: center;
+	width: 20%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 0.5em;
+	clear: left;
+
+ 
+}
+
+nav {
+
+
+
+}
+nav a{
+	float:left;
+	width: 50%;
+	background-color: black;
+
+
+}*/
+
+body {
+
+	background-color: #FFF5FF;
+}
+
+h1 {
+	text-align: center;
+	color: #655F5F;
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	font-weight: normal; 
+	font-size: 24px;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #B3AEAE;
+}
+nav{
+	text-align: center;
+
+}
+nav a{
+	font-size: 30px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	color: #655F5F;
+	border-bottom: 1px dotted white;
+	font-family: "Times New Roman", Times, serif;
+}
+nav a:hover {
+	/* When hovered on the links inside the nav, apply these styles */
+	border-bottom: 1px dotted #655F5F;
+}
+a{
+	color: teal;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+}
+span img {
+	height: 200px;
+	width: 200px;
+
+}
+footer{
+	text-align: right;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h2{
+	font-family: "Times New Roman", Times, serif;
+}
+p{
+	font-family: "Times New Roman", Times, serif;
+}
+/*#header-tagline{
+	color: green;
+}
+.purple-heading{
+	color: purple;
+}
+
+header h1 {
+	font-family: helvetica;
+*/
+}
