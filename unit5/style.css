@@ -26,7 +26,7 @@ nav a{
 
 
 }*/
-
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
 body {
 
 	background-color: #FFF5FF;
@@ -36,10 +36,10 @@ h1 {
 	text-align: center;
 	color: #655F5F;
 	padding: 10px;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Amatic SC', Times, serif;
 	text-transform: uppercase;
 	font-weight: normal; 
-	font-size: 24px;
+	font-size: 30px;
 	letter-spacing: 1px;
 	border-bottom: 1px solid #B3AEAE;
 }
@@ -54,7 +54,7 @@ nav a{
 	display: inline-block;
 	color: #655F5F;
 	border-bottom: 1px dotted white;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Amatic SC', Times, serif;
 }
 nav a:hover {
 	/* When hovered on the links inside the nav, apply these styles */
@@ -63,23 +63,29 @@ nav a:hover {
 a{
 	color: teal;
 	text-decoration: none;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Amatic SC', Times, serif;
 }
 span img {
-	height: 200px;
-	width: 200px;
-
+	height: 500px;
+	width: 500px;
+	float: left;
+	background-color: #FFF5FF; 
 }
 footer{
 	text-align: right;
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Amatic SC', Times, serif;
+	float: left;
+	position: fixed;
+	letter-spacing: 1px;
+
 }
 
 h2{
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Amatic SC', Times, serif;
 }
 p{
-	font-family: "Times New Roman", Times, serif;
+	font-family: 'Amatic SC', Times, serif;
+	font-size: 24px;
 }
 /*#header-tagline{
 	color: green;
