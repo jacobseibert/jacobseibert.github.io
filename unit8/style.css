@@ -1,0 +1,135 @@
+/*div {
+	background-image:url("images/uf1.jpg"), url("images/uf2.jpg"),
+	url("images/uf3.jpg"), url("images/uf4.jpg"), url("images/uf5.jpg"),
+	url("images/uf6.jpg"), url("images/uf7.jpg"), url("images/uf8.jpg"),
+	url("images/uf9.jpg");
+	font-size: 9pt;
+	vertical-align: center;
+	width: 20%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 0.5em;
+	clear: left;
+
+ 
+}
+
+nav {
+
+
+
+}
+nav a{
+	float:left;
+	width: 50%;
+	background-color: black;
+
+
+}*/
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+body {
+	margin: 10px;
+	background-color: #FFF5FF;
+}
+
+h1 {
+	text-align: center;
+	color: #655F5F;
+	padding: 10px;
+	font-family: 'Amatic SC', Times, serif;
+	text-transform: uppercase;
+	font-weight: normal; 
+	font-size: 30px;
+	letter-spacing: 1px;
+	border-bottom: 1px solid #B3AEAE;
+}
+nav{
+	text-align: center;
+
+}
+nav a{
+	font-size: 30px;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	color: #655F5F;
+	border-bottom: 1px dotted white;
+	font-family: 'Amatic SC', Times, serif;
+}
+nav a:hover {
+	/* When hovered on the links inside the nav, apply these styles */
+	border-bottom: 1px dotted #655F5F;
+}
+a{
+	color: teal;
+	text-decoration: none;
+	font-family: 'Amatic SC', Times, serif;
+}
+.image-grid {
+	max-width: 1211px;
+	text-align: center;
+}
+.image-grid img {
+	height: 400px;
+	width: 400px;
+	background-color: #FFF5FF; 
+}
+footer{
+	text-align: right;
+	font-family: 'Amatic SC', Times, serif;
+	float: left;
+	position: fixed;
+	letter-spacing: 1px;
+
+}
+
+h2{
+	font-family: 'Amatic SC', Times, serif;
+}
+p{
+	font-family: 'Amatic SC', Times, serif;
+	font-size: 24px;
+}
+
+@media (max-width: 520px) {
+	/* Any rules inside here will apply to screen sizes below 520px */
+	body{
+		background-color: #F5FFFE; 
+	}
+	.image-grid img{
+		height: auto;
+		width: 100%;
+
+	}
+}
+@media (min-width: 1100px) {
+	.image-grid img{
+		width: 300px;
+		height: auto;  
+	}
+	
+}
+.blog-layout {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.blog-layout img{
+	width: 450px;
+	height: auto;
+	max-width: 100%;
+}
+
+
+/*#header-tagline{
+	color: green;
+}
+.purple-heading{
+	color: purple;
+}
+
+header h1 {
+	font-family: helvetica;
+*/
+}
